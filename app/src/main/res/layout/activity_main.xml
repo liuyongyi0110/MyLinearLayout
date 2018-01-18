@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:showDividers="middle|end"
+    android:divider="@drawable/line"
+    android:dividerPadding="10dp"
+    tools:context="com.example.liuyongyi.mylinearlayout.MainActivity">
+
+   <com.example.liuyongyi.mylinearlayout.MyLinearLayout
+       android:layout_width="match_parent"
+       android:paddingLeft="12dp"
+       android:layout_height="50dp"
+       android:paddingRight="12dp"
+       android:onClick="onClickline"
+       android:background="#ffffff"
+    />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:orientation="vertical"
+
+       />
+
+</LinearLayout>
